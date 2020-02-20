@@ -11,10 +11,23 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Create and set the window to be the same size as the screen
+        window = UIWindow(frame: UIScreen.main.bounds)
+
+        // Create an instance of the main view controller
+        let mainController = UIViewController()
+        mainController.view.backgroundColor = .green
+
+        // Tell the window to load the main controller as it's root view
+        window!.rootViewController = mainController
+        window!.makeKeyAndVisible()
+
         return true
     }
 
