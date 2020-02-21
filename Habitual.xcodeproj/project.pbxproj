@@ -11,8 +11,8 @@
 		C084F1CE23FE7C9700D523A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084F1CD23FE7C9700D523A9 /* SceneDelegate.swift */; };
 		C084F1D523FE7C9B00D523A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C084F1D423FE7C9B00D523A9 /* Assets.xcassets */; };
 		C084F1D823FE7C9B00D523A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C084F1D623FE7C9B00D523A9 /* LaunchScreen.storyboard */; };
-		C09EB6A823FF57E900832381 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09EB6A623FF57E900832381 /* MainViewController.swift */; };
-		C09EB6A923FF57E900832381 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09EB6A723FF57E900832381 /* MainViewController.xib */; };
+		C09EB6A823FF57E900832381 /* HabitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09EB6A623FF57E900832381 /* HabitsTableViewController.swift */; };
+		C09EB6A923FF57E900832381 /* HabitsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09EB6A723FF57E900832381 /* HabitsTableViewController.xib */; };
 		C09EB6AB23FF58A500832381 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09EB6AA23FF58A500832381 /* UIViewControllerExtensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,8 +23,8 @@
 		C084F1D423FE7C9B00D523A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C084F1D723FE7C9B00D523A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C084F1D923FE7C9B00D523A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C09EB6A623FF57E900832381 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		C09EB6A723FF57E900832381 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		C09EB6A623FF57E900832381 /* HabitsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsTableViewController.swift; sourceTree = "<group>"; };
+		C09EB6A723FF57E900832381 /* HabitsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitsTableViewController.xib; sourceTree = "<group>"; };
 		C09EB6AA23FF58A500832381 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,8 +72,8 @@
 		C09EB6AC23FF596700832381 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C09EB6A623FF57E900832381 /* MainViewController.swift */,
-				C09EB6A723FF57E900832381 /* MainViewController.xib */,
+				C09EB6A623FF57E900832381 /* HabitsTableViewController.swift */,
+				C09EB6A723FF57E900832381 /* HabitsTableViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C084F1D823FE7C9B00D523A9 /* LaunchScreen.storyboard in Resources */,
-				C09EB6A923FF57E900832381 /* MainViewController.xib in Resources */,
+				C09EB6A923FF57E900832381 /* HabitsTableViewController.xib in Resources */,
 				C084F1D523FE7C9B00D523A9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,7 +152,7 @@
 				C09EB6AB23FF58A500832381 /* UIViewControllerExtensions.swift in Sources */,
 				C084F1CC23FE7C9700D523A9 /* AppDelegate.swift in Sources */,
 				C084F1CE23FE7C9700D523A9 /* SceneDelegate.swift in Sources */,
-				C09EB6A823FF57E900832381 /* MainViewController.swift in Sources */,
+				C09EB6A823FF57E900832381 /* HabitsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
