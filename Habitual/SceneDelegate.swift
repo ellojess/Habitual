@@ -25,7 +25,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let mainViewController = HabitsTableViewController.instantiate()
         let navigationController = UINavigationController(rootViewController: mainViewController)
 
-        // Tell the window to load the main controller as it's root view
+        // Tell the window to load the navigation controller as it's root view
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
         window?.windowScene = windowScene
