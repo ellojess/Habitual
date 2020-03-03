@@ -17,6 +17,8 @@
 		C039AC78240DDA9D00E5921A /* HabitImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C039AC76240DDA9D00E5921A /* HabitImageCollectionViewCell.xib */; };
 		C039AC7B240DE00600E5921A /* ConfirmHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C039AC79240DE00600E5921A /* ConfirmHabitViewController.swift */; };
 		C039AC7C240DE00600E5921A /* ConfirmHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C039AC7A240DE00600E5921A /* ConfirmHabitViewController.xib */; };
+		C039AC7F240E366C00E5921A /* HabitDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C039AC7D240E366C00E5921A /* HabitDetailedViewController.swift */; };
+		C039AC80240E366C00E5921A /* HabitDetailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C039AC7E240E366C00E5921A /* HabitDetailedViewController.xib */; };
 		C084F1CC23FE7C9700D523A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084F1CB23FE7C9700D523A9 /* AppDelegate.swift */; };
 		C084F1CE23FE7C9700D523A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084F1CD23FE7C9700D523A9 /* SceneDelegate.swift */; };
 		C084F1D523FE7C9B00D523A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C084F1D423FE7C9B00D523A9 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 		C039AC76240DDA9D00E5921A /* HabitImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		C039AC79240DE00600E5921A /* ConfirmHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmHabitViewController.swift; sourceTree = "<group>"; };
 		C039AC7A240DE00600E5921A /* ConfirmHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmHabitViewController.xib; sourceTree = "<group>"; };
+		C039AC7D240E366C00E5921A /* HabitDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailedViewController.swift; sourceTree = "<group>"; };
+		C039AC7E240E366C00E5921A /* HabitDetailedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitDetailedViewController.xib; sourceTree = "<group>"; };
 		C084F1C823FE7C9700D523A9 /* Habitual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habitual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C084F1CB23FE7C9700D523A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C084F1CD23FE7C9700D523A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 				C039AC76240DDA9D00E5921A /* HabitImageCollectionViewCell.xib */,
 				C039AC79240DE00600E5921A /* ConfirmHabitViewController.swift */,
 				C039AC7A240DE00600E5921A /* ConfirmHabitViewController.xib */,
+				C039AC7D240E366C00E5921A /* HabitDetailedViewController.swift */,
+				C039AC7E240E366C00E5921A /* HabitDetailedViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +175,7 @@
 				C084F1D823FE7C9B00D523A9 /* LaunchScreen.storyboard in Resources */,
 				C039AC74240DCF2800E5921A /* AddHabitViewController.xib in Resources */,
 				C039AC7C240DE00600E5921A /* ConfirmHabitViewController.xib in Resources */,
+				C039AC80240E366C00E5921A /* HabitDetailedViewController.xib in Resources */,
 				C09EB6A923FF57E900832381 /* HabitsTableViewController.xib in Resources */,
 				C039AC6C240DC98400E5921A /* HabitTableViewCell.xib in Resources */,
 				C039AC78240DDA9D00E5921A /* HabitImageCollectionViewCell.xib in Resources */,
@@ -185,6 +192,7 @@
 			files = (
 				C09EB6AB23FF58A500832381 /* UIViewControllerExtensions.swift in Sources */,
 				C039AC77240DDA9D00E5921A /* HabitImageCollectionViewCell.swift in Sources */,
+				C039AC7F240E366C00E5921A /* HabitDetailedViewController.swift in Sources */,
 				C037E067240893220058E37F /* Habit.swift in Sources */,
 				C084F1CC23FE7C9700D523A9 /* AppDelegate.swift in Sources */,
 				C084F1CE23FE7C9700D523A9 /* SceneDelegate.swift in Sources */,
