@@ -17,7 +17,21 @@ class HabitsTableViewController: UITableViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    class HabitsTableViewController: UITableViewController {
+        override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+            return 5
+        }
+        override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            var cell: UITableViewCell
+            if let dequeueCell = tableView.dequeueReusableCell(withIdentifier: "cell") {
+                cell = dequeueCell
+            } else {
+                cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
+            }
+            cell.textLabel?.text = "Hello, world!"
+            return cell
+        }
+    }
     /*
     // MARK: - Navigation
 
