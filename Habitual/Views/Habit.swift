@@ -37,7 +37,7 @@ struct Habit: Codable {
         }
     }
     
-      var title: String
+    var title: String
     let dateCreated: Date = Date()
     var selectedImage: Habit.Images
 

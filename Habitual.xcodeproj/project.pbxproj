@@ -19,6 +19,7 @@
 		C039AC7C240DE00600E5921A /* ConfirmHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C039AC7A240DE00600E5921A /* ConfirmHabitViewController.xib */; };
 		C039AC7F240E366C00E5921A /* HabitDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C039AC7D240E366C00E5921A /* HabitDetailedViewController.swift */; };
 		C039AC80240E366C00E5921A /* HabitDetailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C039AC7E240E366C00E5921A /* HabitDetailedViewController.xib */; };
+		C039AC82240E45E200E5921A /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C039AC81240E45E200E5921A /* DateExtensions.swift */; };
 		C084F1CC23FE7C9700D523A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084F1CB23FE7C9700D523A9 /* AppDelegate.swift */; };
 		C084F1CE23FE7C9700D523A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084F1CD23FE7C9700D523A9 /* SceneDelegate.swift */; };
 		C084F1D523FE7C9B00D523A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C084F1D423FE7C9B00D523A9 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		C039AC7A240DE00600E5921A /* ConfirmHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmHabitViewController.xib; sourceTree = "<group>"; };
 		C039AC7D240E366C00E5921A /* HabitDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailedViewController.swift; sourceTree = "<group>"; };
 		C039AC7E240E366C00E5921A /* HabitDetailedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitDetailedViewController.xib; sourceTree = "<group>"; };
+		C039AC81240E45E200E5921A /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		C084F1C823FE7C9700D523A9 /* Habitual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habitual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C084F1CB23FE7C9700D523A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C084F1CD23FE7C9700D523A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				C039AC7A240DE00600E5921A /* ConfirmHabitViewController.xib */,
 				C039AC7D240E366C00E5921A /* HabitDetailedViewController.swift */,
 				C039AC7E240E366C00E5921A /* HabitDetailedViewController.xib */,
+				C039AC81240E45E200E5921A /* DateExtensions.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				C039AC7F240E366C00E5921A /* HabitDetailedViewController.swift in Sources */,
 				C037E067240893220058E37F /* Habit.swift in Sources */,
 				C084F1CC23FE7C9700D523A9 /* AppDelegate.swift in Sources */,
+				C039AC82240E45E200E5921A /* DateExtensions.swift in Sources */,
 				C084F1CE23FE7C9700D523A9 /* SceneDelegate.swift in Sources */,
 				C039AC6E240DCE0900E5921A /* PersistenceLayer.swift in Sources */,
 				C039AC7B240DE00600E5921A /* ConfirmHabitViewController.swift in Sources */,
